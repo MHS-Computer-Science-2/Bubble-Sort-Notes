@@ -22,7 +22,7 @@ int main()
     //BUBBLE SORT
     //Repeat numbers.size() times 
     for (int times = 0; times < numbers.size(); times++) {
-        //Go from 1st element to 2md to last
+        //Go from 1st element to 2nd to last
         for (int i = 0; i < numbers.size() - 1; i++) {
             //Compare two adjacent elements
             if (numbers[i] > numbers[i + 1]) {
