@@ -20,13 +20,13 @@ int main()
     }
 
     //BUBBLE SORT
-    //Repeat numbers.size() times 
+    //Repeat numbers.size() times to make sure it all gets sorted
     for (int times = 0; times < numbers.size(); times++) {
-        //Go from 1st element to 2nd to last
+        //Traverse the vector with i as the index
         for (int i = 0; i < numbers.size() - 1; i++) {
-            //Compare two adjacent elements
+            //If element i is bigger than element i+1
             if (numbers[i] > numbers[i + 1]) {
-                //Flip if element i is bigger
+                //Swap elements i and i+1
                 int temp = numbers[i];
                 numbers[i] = numbers[i + 1];
                 numbers[i + 1] = temp;
